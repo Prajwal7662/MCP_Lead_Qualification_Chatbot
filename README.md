@@ -92,7 +92,12 @@ MCP_Lead_Qualification_Chatbot/
 
 ## 🧪 Sample Chat Flow
 📸 Chat confirmation example:
-![Chat Flow](screenshots/chat_confirmation.png)
+![Chat Flow](screenshots/chat_confirmation1.png)
+![Chat Flow](screenshots/chat_confirmation2.png)
+![Chat Flow](screenshots/chat_confirmation3.png)
+![Chat Flow](screenshots/chat_confirmation4.png)
+![Chat Flow](screenshots/chat_confirmation5.png)
+![Chat Flow](screenshots/chat_confirmation6.png)
 
 ---
 
