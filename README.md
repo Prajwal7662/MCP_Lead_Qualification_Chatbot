@@ -77,7 +77,7 @@ MCP_Lead_Qualification_Chatbot/
 - Sends data to MCP Server
 
 📸 Screenshot:
-![Client Workflow](screenshots/client_workflow.png)
+![Client Workflow](workflows/client_workflow.png)
 
 ---
 
@@ -86,7 +86,7 @@ MCP_Lead_Qualification_Chatbot/
 - Appends lead details to Google Sheets
 
 📸 Screenshot:
-![Server Workflow](screenshots/server_workflow.png)
+![Server Workflow](workflows/server_workflow.png)
 
 ---
 
@@ -100,7 +100,7 @@ MCP_Lead_Qualification_Chatbot/
 All qualified leads are stored automatically.
 
 📸 Example:
-![Google Sheet](screenshots/google_sheet_append.png)
+![Google Sheet](screenshots/google_sheet_output.png)
 
 ---
 
