@@ -17,16 +17,27 @@ The chatbot interacts with users, qualifies real-estate leads, schedules site vi
 ---
 
 ## 🏗️ Architecture
+
 User Chat
+
 ↓
+
 n8n Trigger (Chat Message)
+
 ↓
+
 AI Agent (Google Gemini + Memory)
+
 ↓
+
 MCP Client
+
 ↓
+
 MCP Server
+
 ↓
+
 Google Sheets (Lead Storage)
 
 ---
@@ -41,9 +52,13 @@ Google Sheets (Lead Storage)
 ---
 
 ## 📂 Project Structure
+
 MCP_Lead_Qualification_Chatbot/
+
 ├── workflows/
+
 ├── screenshots/
+
 ├── README.md
 
 
