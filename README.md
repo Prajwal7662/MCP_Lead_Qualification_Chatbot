@@ -23,15 +23,25 @@ The chatbot interacts with users, understands their requirements, schedules site
 ## 🏗️ System Architecture
 
 User Chat
+
 ↓
+
 n8n Chat Trigger
+
 ↓
+
 AI Agent (Google Gemini + Memory)
+
 ↓
+
 MCP Client
+
 ↓
+
 MCP Server
+
 ↓
+
 Google Sheets (Lead Storage)
 
 ---
@@ -48,18 +58,12 @@ Google Sheets (Lead Storage)
 ## 📂 Project Structure
 
 MCP_Lead_Qualification_Chatbot/
+
 ├── screenshots/
-│ ├── chat_confirmation1.png
-│ ├── chat_confirmation2.png
-│ ├── chat_confirmation3.png
-│ ├── chat_confirmation4.png
-│ ├── chat_confirmation5.png
-│ ├── chat_confirmation6.png
-│ └── google_sheet_output.png
+
 │
 ├── workflows/
-│ ├── client_workflow.png
-│ └── server_workflow.png
+
 │
 └── README.md
 
@@ -81,6 +85,9 @@ This workflow handles all **user interactions** and lead qualification logic.
 - Sends structured data to MCP Server
 
 📸 **Client Workflow**
+
+---
+
 ![Client Workflow](workflows/client_workflow.png)
 
 ---
@@ -93,6 +100,9 @@ This workflow is responsible for **persisting qualified leads**.
 - Appends lead details to Google Sheets
 
 📸 **Server Workflow**
+
+---
+
 ![Server Workflow](workflows/server_workflow.png)
 
 ---
@@ -101,15 +111,32 @@ This workflow is responsible for **persisting qualified leads**.
 
 📸 **Chat Interaction Examples**
 
+---
+
 ![Chat Flow](screenshots/chat_confirmation1.png)
+
+
+---
 
 ![Chat Flow](screenshots/chat_confirmation2.png)
 
+
+---
+
 ![Chat Flow](screenshots/chat_confirmation3.png)
+
+
+---
 
 ![Chat Flow](screenshots/chat_confirmation4.png)
 
+
+---
+
 ![Chat Flow](screenshots/chat_confirmation5.png)
+
+
+---
 
 ![Chat Flow](screenshots/chat_confirmation6.png)
 
@@ -119,6 +146,9 @@ This workflow is responsible for **persisting qualified leads**.
 All qualified leads are stored automatically for easy access and tracking.
 
 📸 **Lead Storage Example**
+
+---
+
 ![Google Sheet Output](screenshots/google_sheet_output.png)
 
 ---
