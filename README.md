@@ -61,10 +61,10 @@ MCP_Lead_Qualification_Chatbot/
 
 ├── screenshots/
 
-│
+
 ├── workflows/
 
-│
+
 └── README.md
 
 ---
